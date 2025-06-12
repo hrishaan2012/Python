@@ -1,0 +1,7 @@
+x = ("5")
+y = ("Hrishaan")
+print(x)
+print(y)
+name=input("Enter your name: ")
+print("Hello, " + name + "! Welcome to the program.")
+print("This is a simple Python script.")
