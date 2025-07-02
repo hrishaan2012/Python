@@ -1,11 +1,12 @@
-c= input("Enter a character: ")
-if len(c)>1:
-    print("Invalid input")
+y= int(input("Enter the money with you"))
+c= int(input("Enter the maximum apples you can eat"))
+p= int(input("Enter the price of one apple"))
+sp= y/p
+if sp > c:
+    print("You can eat only", c, "apples")
 else:
-    if c>="a" and c<="z":
-        print("This chartacter is a alphanbet")
-
-    elif c>="A" and c<="Z":
-        print("This character is a capital alphabet")
-    else:
-        print("This character is not an alphabet")
+    print("You can eat", sp, "apples")
+if sp == 0:
+    print("You can't eat any apples")
+else:
+    print("You can eat apples")
