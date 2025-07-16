@@ -9,3 +9,4 @@ while (i<len(string)):
     i=i+1
 
 print("The character", char, "occurs", count, "times in the word", string)
+if num>1
