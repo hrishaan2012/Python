@@ -1,7 +1,7 @@
 n=int(input("Enter the number of sides of the polygon: "))
 import turtle
 turtle.Screen().bgcolor("orange")
-turtle.Screen().setup(width=800, height=600)
+turtle.Screen().setup(width=1800, height=1600)
 t=turtle.Turtle()
 if n < 3:
     print("A polygon must have at least 3 sides.")
